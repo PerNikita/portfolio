@@ -36,15 +36,22 @@ font-family: 'Poppins', sans-serif;
 }
 
 html, body {
-    display: flex;
-    flex-direction: column;
     font-family: 'DM Sans', sans-serif;
     letter-spacing: -0.5px;
     color: var(--text-color);
-    min-height: 100vh;
     /*Light Mode*/
     background-color: var(--page-bg);
     color: var(--text-color);
+}
+
+#root {
+    min-height: 100vh;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
