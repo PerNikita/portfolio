@@ -14,7 +14,7 @@ import project03Big from "./../image/projects/06-big.jpg"
 
 const projects = [
     {
-        id: uuidv4(),
+        id: 0,
         title: 'Gaming streaming portal',
         skills: 'React, Node.js, MongoDB',
         img: project01,
@@ -22,15 +22,15 @@ const projects = [
         gitHubLink: ''
     },
     {
-        id: uuidv4(),
+        id: 1,
         title: 'Video service',
         skills: 'React, PHP, MySql',
         img: project02,
         imgBig: project02Big,
-        gitHubLink: ''
+        gitHubLink: 'https://github.com'
     },
     {
-        id: uuidv4(),
+        id: 2,
         title: 'Video service',
         skills: 'Vue JS, Node.js, MongoDB',
         img: project03,
@@ -38,7 +38,7 @@ const projects = [
         gitHubLink: ''
     },
     {
-        id: uuidv4(),
+        id: 3,
         title: 'Video service',
         skills: 'React Native',
         img: project04,
@@ -46,7 +46,7 @@ const projects = [
         gitHubLink: ''
     },
     {
-        id: uuidv4(),
+        id: 4,
         title: 'Video service',
         skills: 'HTML, SCSS, JS',
         img: project05,
@@ -54,7 +54,7 @@ const projects = [
         gitHubLink: ''
     },
     {
-        id: uuidv4(),
+        id: 5,
         title: 'Video service',
         skills: 'React, PHP, MySql',
         img: project06,
